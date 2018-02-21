@@ -1,29 +1,40 @@
 ---
-title: Introduction
-contributors: [rigor789, tjvantoll]
+title: Введение
+contributors: [rigor789, tjvantoll, belozerskiy]
 ---
 
-## What is [NativeScript](https://www.nativescript.org/)?
+## Что такое [NativeScript](https://www.nativescript.org/)?
 
-NativeScript is an open source framework for building truly native mobile application using JavaScript.
+NativeScript это фреймворк с открытым исходным кодом предназначенный для создания нативных мобильных приложений использующий javascript
+<!-- NativeScript is an open source framework for building truly native mobile application using JavaScript.
+ -->
 
-## What is [Vue.js](https://vuejs.org/)?
+## Что такое [Vue.js](https://vuejs.org/)?
+Vue (произносится /vjuː/, примерно как view) — это прогрессивный фреймворк для создания пользовательских интерфейсов. В отличие от фреймворков-монолитов, Vue создан пригодным для постепенного внедрения. Его ядро в первую очередь решает задачи уровня представления (view), что упрощает интеграцию с другими библиотеками и существующими проектами.
 
-Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. The core library is focused on the view layer only, and is very easy to pick up and integrate with other libraries or existing projects.
+## Что такое NativeScript-Vue?
 
-## What is NativeScript-Vue?
+NativeScript-Vue является плагином для NativeScript который позволяет вам использовать Vue.js для создания мобильных приложений. 
+<!-- NativeScript-Vue is a NativeScript plugin which allows you to use Vue.js to craft your mobile application. -->
 
-NativeScript-Vue is a NativeScript plugin which allows you to use Vue.js to craft your mobile application.
+Если вы использовали Vue.js раньше вы почуствуете себя как дома с NativeScript-Vue. 
+<!-- If you have used Vue.js before you will feel right at home with NativeScript-Vue. -->
 
-If you have used Vue.js before you will feel right at home with NativeScript-Vue.
+## Зачем вам может понадобиться использовать это?
 
-## Why would you use this?
+Существует множество возможностей создавать мобильные приложения. Здесь содержаться различные ситуации когда вам может пригодиться NativeScript-Vue 
 
-There are many options to build mobile apps. Here are some situations where we think NativeScript-Vue is a great fit.
+<!-- There are many options to build mobile apps. Here are some situations where we think NativeScript-Vue is a great fit. -->
 
-* **You need a truly native iOS and Android app**: NativeScript builds your apps using native user interface components on iOS and Android. The apps you build are not web based, and therefore are not subject to the limitations inherent in WebView-based application frameworks. NativeScript also provides [an extensive collection of plugins](http://market.nativescript.org/) to tie into native device features. So if you need to tie into an iOS or Android API or feature as part of your app, you can do that with NativeScript.
-* **You like JavaScript**: With NativeScript you write your mobile applications in JavaScript — not Objective-C, not Swift, and not Java. If you like JavaScript, you’ll love writing native iOS and Android apps with the same language you use in your Web and/or Node apps.
-* **You like Vue**: Vue is known for its simple approach to the view layer. If you like building web apps with Vue, you’ll be right at home with NativeScript-Vue, as you’ll be using the same syntax for handling common tasks like data binding and event handling.
+<!-- You need a truly native iOS and Android app -->
+* **Вам необходимиы по настоящему нативные IOS и Android приложения**: NativeScript собирает ваши приложения используя нативные компрненты пользовательского интерфейса IOS и Andorid. Приложения которые вы создаете не являются Web приложениями, и поэтому они лишены ограничений связанных с WebView. NativeScript также предостовляет [внушительную коллекцию плагинов](http://market.nativescript.org/) которые позволяют использовать всевозможные фичи устройств. Так что если вам понадобиться связать IOS, Android API или прикрутить какую нибудь фичу как часть вашего приложения вы сможете сделать это при помощи NativeScript.  
+<!-- builds your apps using native user interface components on iOS and Android. The apps you build are not web based, and therefore are not subject to the limitations inherent in WebView-based application frameworks. NativeScript also provides [an extensive collection of plugins](http://market.nativescript.org/) to tie into native device features. So if you need to tie into an iOS or Android API or feature as part of your app, you can do that with NativeScript. -->
+<!-- You like JavaScript -->
+* **Вам нравится JavaScript**: С NativeScript вы пишите код вашего мобильного приложения на JavaScript - не на Object-C, не на Swift и не на Java. Если вы любите JavaScript вы также полюбите писать нативные IOS и Android приложения на том же языке который вы используете в Web и/или в Node приложениях.   
+<!-- With NativeScript you write your mobile applications in JavaScript — not Objective-C, not Swift, and not Java. If you like JavaScript, you’ll love writing native iOS and Android apps with the same language you use in your Web and/or Node apps. -->
+<!-- You like Vue -->
+* **Вам нравится Vue**: Vue известен своим простым подходом к управлению view слоем. Если вам нравится создавать веб приложения при помощи Vue, вы почуствуете себя как дома с NativeScript-Vue, используя тот-же синтаксис для решения общих задач таких как двунаправленное связывание(data binding) и обработка событий(event handling)
+<!-- Vue is known for its simple approach to the view layer. If you like building web apps with Vue, you’ll be right at home with NativeScript-Vue, as you’ll be using the same syntax for handling common tasks like data binding and event handling. -->
 
 ## What’s the catch?
 
@@ -34,11 +45,13 @@ If you have existing Vue experience, there are two big things you’ll need to l
 
 Don’t worry though. Although there is a learning curve for working with NativeScript-Vue, you should find things much easier than learning iOS or Android from the ground up. After all, you’ll still be writing your source code in JavaScript and Vue.
 
-## Want to get involved?
+## Хотите поспособствовать?
 
-NativeScript-Vue is an open source project and contributions are very much encouraged. Check out the [project’s contributing guide](https://github.com/nativescript-vue/nativescript-vue/blob/master/CONTRIBUTING.md) and **join us on the #vue channel on the [NativeScript Community Slack](https://developer.telerik.com/wp-login.php?action=slack-invitation)**.
+NativeScript-Vue это проект с открытым исходным кодом и ???.
+Загляните сюда [Гайд по Котрибуции](https://github.com/nativescript-vue/nativescript-vue/blob/master/CONTRIBUTING.md)
+**Присоединяйтесь к нам в #vue канеле [NativeScript Community Slack](https://developer.telerik.com/wp-login.php?action=slack-invitation)**.
 
-## How stable is this project?
+## Насколько стабилен проект?
 
 NativeScript-Vue is relatively feature complete. At this time we’re focusing on two things:
 
