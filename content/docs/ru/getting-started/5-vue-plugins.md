@@ -1,39 +1,40 @@
 ---
-title: Using Vue Plugins
-contributors: [jlooper]
+title: Использование Vue плагинов
+contributors: [pavelgonzales]
 ---
 
 ## vue-router
 
-Coming soon...
+Скоро...
 
 ## Vuex
 
-Vuex is Vue.js's state management pattern and library. It serves as a store for all the components in an application and implements rules to ensure that state is mutated in a predictable fashion. Vuex can be used in NativeScript apps; for an example, see the [NativeScript Groceries Vue sample](https://github.com/tralves/groceries-ns-vue). 
+Vuex это библиотека управления состоянием в Vue. Он служит хранилищем для данных и гарантирует предсказуемое измненение состояния приложения. Vuex может использоваться в NativeScript приложениях; для примера обратите внимание на [NativeScript Groceries Vue sample](https://github.com/tralves/groceries-ns-vue). 
 
-### Install
+### Установка
 
-Install Vuex as you would normally in your Vue.js app. With npm, for example:
+Установка Vuex производится так же, как и для простого Vue приложения
 
 ```shell
 $ npm install vuex --save
 ```
 
-The most recent version of Vuex will be added to your package.json file.
+Последняя версия Vuex будет добавлена в ваш package.json.
 
-### Import
+### Импорт
 
-In your app's `main.js` file, import Vuex at the top:
+Вверху вашего `main.js`:
 
 ```js
 import Vuex from 'vuex'
 Vue.use(Vuex)
 ```
-Now you can use Vuex in the app similar to how you would use it in a standard Vue app for the web to manage your app's state.
 
-### Create a Store
+Теперь вы можете использовать Vuex аналогично тому, как вы использовали его в стандартном приложении Vue.
 
-Above your creation of a new Vue instance, or in a separate folder (for example `/store` in your app folder), create a new constant to store your state. This is where you will invoke Vuex API calls. A simple store constant would include the state of a counter whose state you control throughout your app by means of tracking its mutations:
+### Создание стора
+
+В папке `/store` создадим константу с нашим стором. Простой стор включает в себя состояние счетчика и мутации изменяющие наше состояние:
 
 ```js
 const store = new Vuex.Store({
@@ -47,9 +48,9 @@ const store = new Vuex.Store({
 })
 ```
 
-### Use the Store
+### Использование стора
 
-Now you can manage state by calling the store you just created. In the example below, the app tracks the count value as you press a '+' or '-' button. Note that you don't manipulate the state itself, but rather call mutations to increment and decrement its value.
+Теперь мы можем управлять нашим состоянием. В примере ниже мы создаем вычисляемое свойство `count` и изменяем его по нажатию на кнопку '+' или '-'. Обратите внимание что вы не изменяете ваше состояние напряую, а вызываете мутации которые это делают.
 
 ```js
 new Vue({
@@ -82,4 +83,4 @@ new Vue({
 }).$start()
 ```
 
-More information about Vuex and how to manage state can be found in [the Vuex documentation](https://vuex.vuejs.org/en/core-concepts.html). A good architecture to manage the various elements of Vuex can be found in the Groceries app in the [`/store` folder](https://github.com/tralves/groceries-ns-vue/tree/master/app/store).
+Больше информации о Vuex и об управлении состоянием вы найдете в [документации](https://vuex.vuejs.org/ru/). Хорошую архитектуру для управления различными элементами вы можете найти в приложении Groceries в [папке `/store`](https://github.com/tralves/groceries-ns-vue/tree/master/app/store).
