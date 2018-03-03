@@ -1,13 +1,11 @@
 ---
-title: Quick Start
-contributors: [rigor789, eddyverbruggen]
+title: Быстрый старт
+contributors: [rigor789, eddyverbruggen, pavelgonzales]
 ---
 
-If you want to easily try NativeScript-Vue, we strongly recommend trying
-it in the [NativeScript Playground](https://play.nativescript.org?template=play-vue). It is the easiest introduction you can get into NativeScript-Vue.
+Если вы хотите просто попробовать NativeScript-Vue, мы рекомендуем попробовать его на [NativeScript Playground](https://play.nativescript.org?template=play-vue). Это самое простое для знакомства с NativeScript-Vue.
 
-If you are ready to move on and work locally on your machine, and [you
-have your system ready for native development](/en/docs/getting-started/installation), you can start by using a template:
+Если вы хотите попробовать локально, [и выша система готов для разработки](/ru/docs/getting-started/installation), вы можете начать с использования шаблона:
 
 ```shell
 $ tns create my-app --template nativescript-vue-template
@@ -24,4 +22,4 @@ $ tns run android # for android
 $ tns run ios # for ios
 ```
 
-To learn more about the available templates head over to the [templates documentation](/en/docs/getting-started/templates).
+Чтобы узнать больше о доступных шаблонах, перейдите к [документации по шаблонам](/ru/docs/getting-started/templates).
