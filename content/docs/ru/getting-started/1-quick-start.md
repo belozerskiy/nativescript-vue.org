@@ -1,6 +1,6 @@
 ---
 title: Быстрый старт
-contributors: [rigor789, eddyverbruggen, pavelgonzales]
+contributors: [pavelgonzales]
 ---
 
 Если вы хотите просто попробовать NativeScript-Vue, мы рекомендуем попробовать его на [NativeScript Playground](https://play.nativescript.org?template=play-vue). Это самое простое для знакомства с NativeScript-Vue.
@@ -12,7 +12,7 @@ $ tns create my-app --template nativescript-vue-template
 $ cd my-app
 ```
 
-and then run your app using:
+и затем запустите ваше приложение:
 
 ```shell
 $ tns run android # for android
