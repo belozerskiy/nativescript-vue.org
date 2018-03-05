@@ -1,14 +1,14 @@
 ---
 title: AbsoluteLayout
 apiRef: https://docs.nativescript.org/api-reference/modules/_ui_layouts_absolute_layout_
-contributors: [rigor789]
+contributors: [pavelgonzales]
 ---
 
-The AbsoluteLayout container is the simplest layout container in NativeScript. It uses absolute top-left coordinates to position its children. The AbsoluteLayout will not enforce any layout constraints on its children and will not resize them at runtime when its size changes.
+AbsoluteLayout является самым простым лэйаут контейнером в NativeScript. Он использует абсолютные координаты для дочерних элементов. AbsoluteLayout не накладывает ограничений по размерам для дочерних элементов и не будет их изменять при изменении собственных размеров.
 
-### Samples
+### Примеры
 
-#### A grid-like layout
+#### Сетка
 
 ```html
 <AbsoluteLayout backgroundColor="#3c495e">
@@ -20,7 +20,7 @@ The AbsoluteLayout container is the simplest layout container in NativeScript. I
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/absolute_layout_grid.svg" />
 
-#### Overlapping elements
+#### Перекрывающие элементы
 
 ```html
 <AbsoluteLayout backgroundColor="#3c495e">
@@ -31,16 +31,15 @@ The AbsoluteLayout container is the simplest layout container in NativeScript. I
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/absolute_layout_overlap.svg" />
 
 
-## Props
+## Входные параметры (Props)
 
-AbsoluteLayout has no props.
+AbsoluteLayout не имеет входных параметров.
 
-## Additional Children Props
+## Входные параметры для дочерних элементов
 
-When an element is a direct child of the AbsoluteLayout, the following
-props get a meaning:
+У дочерних элементов AbsoluteLayout появляются свойства:
 
-| name | type | description |
+| имя | тип | описание |
 |------|------|-------------|
-| `top` | `Number` | A value representing the distance from the top of the parent AbsoluteLayout
-| `left` | `Number` | A value representing the distance from the left of the parent AbsoluteLayout
+| `top` | `Число` | Значение указывающее расстояние от верхнего края родиельского элемента AbsoluteLayout
+| `left` | `Число` | Значение указывающее расстояние от левого края родиельского элемента AbsoluteLayout
