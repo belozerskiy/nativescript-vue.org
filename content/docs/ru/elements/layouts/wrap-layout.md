@@ -1,14 +1,16 @@
 ---
 title: WrapLayout
 apiRef: https://docs.nativescript.org/api-reference/modules/_ui_layouts_wrap_layout_
-contributors: [rigor789]
+contributors: [pavelgonzales]
 ---
 
 The WrapLayout container positions its children in rows or columns, based on the orientation property, until the space is filled and then wraps them onto a new row or column.
 
-### Samples
+WrapLayout размещает свои дочерние элементы в строки или колонки базирующихся на свойстве `orientation`. Когда все пространство заполнено, WrapLayout переносит дочерние элементы на новую строку или колонку.
 
-#### Default WrapLayout
+### Примеры
+
+#### WrapLayout по умолчанию
 
 ```html
 <WrapLayout backgroundColor="#3c495e">
@@ -20,7 +22,7 @@ The WrapLayout container positions its children in rows or columns, based on the
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/wrap_layout_horizontal.svg" />
 
-#### Vertical WrapLayout
+#### WrapLayout с вертикальной ориентацией
 
 ```html
 <WrapLayout orientation="vertical" backgroundColor="#3c495e">
@@ -32,15 +34,14 @@ The WrapLayout container positions its children in rows or columns, based on the
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/wrap_layout_vertical.svg" />
 
-## Props
+## Входные параметры (Props)
 
-| name | type | description |
+| имя | тип | описание |
 |------|------|-------------|
-`orientation` | `String` | A value indicating the flow direction. If orientation is `horizontal`, items are arranged in rows. If orientation is `vertical`, items are arranged in columns. The default value is `horizontal`.
-`itemWidth` | `Number` | The width used to measure and layout each child. Default value is `Number.NaN`, which does not restrict children.
-`itemHeight` | `Number` | The height used to measure and layout each child. Default value is `Number.NaN`, which does not restrict children.
+`orientation` | `String` | Указывает направление потока. Если ориентация выставлена `horizontal`, то дочерние элементы располагаются в ряд. Если ориентация выставлена `vertical`, то дочерние элементы располагаются в колонку. По умолчанию стоит значение `horizontal`.
+`itemWidth` | `Number` | Ограничивает ширину дочерних элементов. По умолчанию стоит значение `Number.NaN`, которое не ограничивает ширину дочерних элементов.
+`itemHeight` | `Number` | Ограничивает высоту дочерних элементов. По умолчанию стоит значение `Number.NaN`, которое не ограничивает высоту дочерних элементов.
 
+## Входные параметры для дочерних элементов
 
-## Additional Children Props
-
-There are no additional properties for child elements.
+У дочерних элементов нет входных параметров.
