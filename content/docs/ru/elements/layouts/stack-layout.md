@@ -1,14 +1,14 @@
 ---
 title: StackLayout
 apiRef: https://docs.nativescript.org/api-reference/modules/_ui_layouts_stack_layout_
-contributors: [rigor789]
+contributors: [pavelgonzales]
 ---
 
-The StackLayout container stacks the child elements either vertically (default), or horizontally.
+StackLayout это контейнер в котором дочерние элементы идут друг за другом по вертикали (по умолчанию) или горизонтали.
 
-### Samples
+### Примеры
 
-#### Default StackLayout
+#### StackLayout по умолчанию
 
 ```html
 <StackLayout backgroundColor="#3c495e">
@@ -19,7 +19,7 @@ The StackLayout container stacks the child elements either vertically (default),
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/stack_layout_vertical.svg" />
 
-#### Horizontal StackLayout
+#### Горизонтальный StackLayout
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
@@ -30,7 +30,7 @@ The StackLayout container stacks the child elements either vertically (default),
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/stack_layout_horizontal.svg" />
 
-#### StackLayout with horizontally aligned children
+#### StackLayout с горизинтальным выравниванием дочерних элементов 
 
 ```html
 <StackLayout backgroundColor="#3c495e">
@@ -46,7 +46,7 @@ The StackLayout container stacks the child elements either vertically (default),
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/stack_layout_vertical_align_children.svg" />
 
-#### Horizontal StackLayout with vertically aligned children
+#### Горизонтальный StackLayout с вертикальным выравниванием дочерних элементов
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
@@ -62,13 +62,13 @@ The StackLayout container stacks the child elements either vertically (default),
 ```
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript-vue.org/layouts/stack_layout_horizontal_align_children.svg" />
 
-## Props
+## Входные параметры (Props)
 
-| name | type | description |
+| имя | тип | описание |
 |------|------|-------------|
-`orientation` | `String` | Specifies the direction of the stacking. Possible values are `vertical` and `horizontal`. The default value is `vertical`.
+`orientation` | `String` | Определяет направление укладки дочерних элементов. Может быть `vertical` или `horizontal`. По умолчанию `vertical`.
 
 
-## Additional Children Props
+## Входные параметры для дочерних элементов
 
-There are no additional properties for child elements.
+У дочерних элементов нет входных параметров.
